@@ -3075,7 +3075,7 @@ class grocery_CRUD_States extends grocery_CRUD_Layout
                 if ($first_parameter !== null) {
                     $state_info = (object) array('primary_key' => $first_parameter);
                 } else {
-                    throw new Exception('On the state "edit" the Primary key cannot be null', 6);
+                    throw new Exception('On the state "read" or "edit" the Primary key cannot be null', 6);
                     die();
                 }
                 break;
