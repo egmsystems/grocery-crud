@@ -267,9 +267,6 @@ class Grocery_crud_model  extends CI_Model  {
     	if($where_clause !== null)
     		$this->db->where($where_clause);
 
-    	if($where_clause !== null)
-    		$this->db->where($where_clause);
-
     	if($limit !== null)
     		$this->db->limit($limit);
 
